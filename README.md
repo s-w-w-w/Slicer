@@ -53,7 +53,7 @@ $slicer -> visited(); => 1
 $this -> slicer -> countSlices(); => 3
 
 // get number of items in the item array
-$slicer -> count()); 
+$slicer -> count()); => 3
 
 ```
 
