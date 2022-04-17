@@ -9,8 +9,7 @@
   you want to get, and it will return the part of the array you want. Please, see the Usage section for examples.
 
 ## Installation
-  Put Slicer.php file in a folder of your project where PHP can find it. Depending on your project
-  you might need to add a namespace in Slicer.php file
+  Copy Slicer.php file in a folder where PHP can find it. You might need to add namespace in the file
 
 ## Configuration
 
