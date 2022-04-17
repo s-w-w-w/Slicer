@@ -17,12 +17,12 @@
 ### Configuration options
   Slicer can be configured using an associative arra of parameters (optional parameters are given in square brackets) 
 
-  items - array - array of items to work to work on. Any type of item is valid. 
-  [offset] - int - >= 0 - specifies the first array item to return in a slice
-  [limit] - int - >= 1 - specifies number of items to return in a slice
+  **items** - array - array of items to work to work on. Any type of item is valid. 
+  **[offset]** - int - >= 0 - specifies the first array item to return in a slice
+  **[limit]** - int - >= 1 - specifies number of items to return in a slice
   
 
-```
+```php
 $config = [
   'offset' => 0, 
   'limit' => 1,
@@ -33,17 +33,25 @@ $config = [
 ## Usage
 Usage examples:
 
-```
+```php
+
+//get instance
 $slicer = new Slicer(['offset' => 0, 'limit' => 1,'items' => ['a','b','c']]);
+
 // get required slice
 $slicer -> get(); => ['a']
+
 // check if another slice is available
 $slicer -> hasMore(); => True
+
 // get number of slices counting from the beginning of the item array, current slice included 
 $slicer -> visited(); => 1
+
 // get number of available slice based on the given slice item count (provided as $limit)
 $this -> slicer -> countSlices(); => 3
+
 // get number of items in the item array
 $slicer -> count()); 
+
 ```
 
