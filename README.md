@@ -15,11 +15,13 @@
 ## Configuration
 
 ### Configuration options
-  Slicer can be configured using an associative arra of parameters (optional parameters are given in square brackets) 
+Slicer can be configured using an associative arra of parameters (optional parameters are given in square brackets): 
 
-  **items** - array - array of items to work to work on. Any type of item is valid. 
-  **[offset]** - int - >= 0 - specifies the first array item to return in a slice
-  **[limit]** - int - >= 1 - specifies number of items to return in a slice
+**items** - array - array of items to work to work on. Any type of item is valid, 
+
+**[offset]** - int - >= 0 - specifies the first array item to return in a slice,
+
+**[limit]** - int - >= 1 - specifies number of items to return in a slice.
   
 
 ```php
