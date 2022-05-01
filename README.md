@@ -4,12 +4,12 @@
     - get a portion of an array of length given by a limit, starting at an offset
 
 ## Description
-  Slicer is a PHP library to assist with you with obraining a chunk of an array of items. 
+  Slicer is a PHP library to assist you with obtaining a chunk of an array of items. 
   You tell it what array to work on, where in the array to start looking for items, and how many items
   you want to get, and it will return the part of the array you want. Please, see the Usage section for examples.
 
 ## Installation
-  Copy Slicer.php file in a folder where PHP can find it. You might need to add namespace in the file
+  Copy Slicer.php file in a folder where PHP can find it. You might need to add namespace in the library file
 
 ## Configuration
 
